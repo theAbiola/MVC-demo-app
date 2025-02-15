@@ -1,6 +1,5 @@
 import express from "express";
-import { getAbout } from "../controllers/navControllers.js";
-import { getContact } from "../controllers/navControllers.js";
+import { getAbout, getContact } from "../controllers/navController.js";
 
 const router = express.Router();
 
